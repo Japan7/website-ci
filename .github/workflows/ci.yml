@@ -11,7 +11,7 @@ concurrency:
 
 env:
   REGISTRY: ${{ secrets.REGISTRY_HOST }}
-  IMAGE_NAME: ${{ github.repository }}
+  IMAGE_NAME: japan7/website
   HUGO_VERSION: 0.124.1
 
 jobs:

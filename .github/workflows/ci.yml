@@ -68,7 +68,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout nanak8s
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           repository: Japan7/nanak8s
           token: ${{ secrets.NANAK8S_PAT }}
